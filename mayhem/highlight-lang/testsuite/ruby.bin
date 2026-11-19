@@ -1,0 +1,1 @@
+"def f; puts "#{x}"; %w[a b]; end # c

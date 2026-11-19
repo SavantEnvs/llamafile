@@ -1,0 +1,6 @@
+	```html
+<div class="a">&amp;<!-- c --></div>
+```
+```sh
+echo "$HOME" | grep -v x
+```

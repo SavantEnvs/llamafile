@@ -1,0 +1,9 @@
+project: savantenvs/llamafile
+target: highlight-lang
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/highlight-lang/testsuite
+cmds:
+  - cmd: /mayhem/o/mayhem/fuzz/fuzz_highlight_lang
+    libfuzzer: true
+    timeout: 10

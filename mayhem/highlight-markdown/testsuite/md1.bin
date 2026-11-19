@@ -1,0 +1,7 @@
+```python
+def f(x):
+    return 'str' # comment
+```
+
+- item
+- [link](http://x)

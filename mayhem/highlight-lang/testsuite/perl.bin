@@ -1,0 +1,3 @@
+my $x = qq{a}; s/foo/bar/g; print <<"E";
+hi
+E

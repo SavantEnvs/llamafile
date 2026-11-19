@@ -1,0 +1,6 @@
+```js
+const a = `tpl ${x}`; // c
+```
+```rust
+fn main() { let s = r#"raw"#; }
+```

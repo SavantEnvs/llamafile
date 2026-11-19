@@ -1,0 +1,7 @@
+# Build context for mayhem/Dockerfile: the full repo incl. .git (the grader uses the history),
+# minus local build output (upstream's /o tree, which also holds this integration's build).
+o/
+.cosmocc/
+cosmocc/
+*.o
+*.a

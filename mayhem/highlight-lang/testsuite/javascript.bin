@@ -1,0 +1,1 @@
+const re = /a+b/g; let s = `t${x}`; // c

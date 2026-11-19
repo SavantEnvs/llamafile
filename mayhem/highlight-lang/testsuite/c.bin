@@ -1,0 +1,2 @@
+'#include <stdio.h>
+int main(){ printf("%d\n", 0x1f); /* c */ return 0; } // x
